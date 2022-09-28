@@ -156,12 +156,13 @@ nav {
 }
 
 .reasons {
-    min-height: 849px;
+    min-height: 849px; 
+    padding: 20px 0 64px 0;
 }
 
-.reasons .resons_advantages_btn {
+.label {
     display: block;
-    margin: 20px auto;
+    margin: 0 auto;
     width: 115px;
     height: 27px;
     background: #000000;
@@ -173,8 +174,9 @@ nav {
     mix-blend-mode: normal;
 }
 
-.reasons .reasons_header {
-    margin-top: 33px;
+.title {
+    margin-bottom: 0;
+    margin-top: 38px;
     font-weight: 700;
     font-size: 38px;
     text-align: center;
@@ -183,10 +185,10 @@ nav {
 }
 
 .reasons .reasons_item {
-    margin-top: 16px;
+    margin-top: 26px;
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
 }
 
 .reasons .reasons_item .rectangle {
@@ -196,30 +198,30 @@ nav {
     width: 116px;
     height: 116px;
     background: #1EACC7;
-    border-radius: 50%;
+    border-radius: 100%;
     margin-right: 25px;
 }
 
-.reasons .reasons_item .reasons_img {
-    width: 80px;
-    height: 66px;
-}
-
-.reasons .reasons_item .reasons_descr {
-    min-height: 151px;
+ .reasons .reasons_item .reasons_descr {
     width: 371px;
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 21px;
-    color: #202020;
 }
 
-.reasons .reasons_item .reasons_descr span {
+.reasons .reasons_item .reasons_descr .reasons_subtitle {
     font-weight: 400;
     font-size: 17px;
     line-height: 21px;
     color: #1EACC7;
 }
+
+
+.reasons .reasons_item .reasons_descr .reasons_text {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #202020;
+} 
+
+
 
 
 
